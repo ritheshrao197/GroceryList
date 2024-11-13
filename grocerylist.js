@@ -3,7 +3,7 @@ $(function () {
 
     // Fetch the JSON data dynamically
     function loadJSON() {
-        $.getJSON('path/to/items.json', function (data) {
+        $.getJSON('items.json', function (data) {
             jsonData = data;
             populateDropdown();
         }).fail(function () {
